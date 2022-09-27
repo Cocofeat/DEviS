@@ -1,5 +1,5 @@
 ## UMIS: Trusworthy medical image segmentation
-Conference version of UMIS 
+Conference version of 
 [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
 ## Requirements
 Some important required packages include:  
