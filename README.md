@@ -18,7 +18,7 @@ Medical image segmentation (MIS) is essential for supporting disease diagnosis a
 ## Data Acquisition
 - The ISIC2018 dataset could be acquired from [here](https://challenge2018.isic-archive.com/).
 - The LiTS2017 could be acquired from [here](https://competitions.codalab.org/competitions/17094).
-- The BraTS2019 datasets (**BraTS 2019**) could be acquired from [here](https://ipp.cbica.upenn.edu/).
+- The BraTS2019 datasets could be acquired from [here](https://ipp.cbica.upenn.edu/).
 - The Johns Hopkins OCT dataset could be acquired from [here](https://iacl.ece.jhu.edu/index.php?title=Main_Page).
 - The Duke OCT dataset with DME dataset could be acquired from [here](https://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm).
 - The DRIVE dataset could be acquired from [here](https://drive.grand-challenge.org/DRIVE/).
