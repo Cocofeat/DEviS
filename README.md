@@ -1,6 +1,8 @@
 ## UMIS: Trusworthy medical image segmentation
 Conference version of 
 [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
+Journal version of
+[EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap](https://arxiv.org/abs/2301.00349)
 
 ## Requirements
 Some important required packages include:  
