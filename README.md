@@ -42,3 +42,29 @@ Run the `python3 train.py ` : the backbone without our framework
 * [01/01] We will release the code as soon as possible. 
 * Happy New Year!
 * [09/17] We will release the code as soon as possible. 
+
+If you find our work is helpful for your research, please consider to cite:  
+```
+@misc{Coco2022EvidenceCap,
+  author    = {Zou, Ke and Yuan, Xuedong and Shen, Xiaojing and Wang, Meng and Rick, Siow Mong, Goh and Yong, Liu and Fu, Huazhu},
+  title     = {EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap},
+  year      = {2023},
+  publisher = {arXiv},
+  url = {https://arxiv.org/abs/2301.00349},
+
+}
+}
+```
+
+```
+@InProceedings{Coco2022TBraTS,
+  author    = {Zou, Ke and Yuan, Xuedong and Shen, Xiaojing and Wang, Meng and Fu, Huazhu},
+  booktitle = {Medical Image Computing and Computer Assisted Intervention -- MICCAI 2022},
+  title     = {TBraTS: Trusted Brain Tumor Segmentation},
+  year      = {2022},
+  address   = {Cham},
+  pages     = {503--513},
+  publisher = {Springer Nature Switzerland},
+}
+}
+```
