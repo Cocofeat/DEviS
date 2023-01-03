@@ -46,7 +46,7 @@ Run the `python3 train.py ` : the backbone without our framework
 If you find our work is helpful for your research, please consider to cite:  
 ```
 @misc{Coco2022EvidenceCap,
-  author    = {Zou, Ke and Yuan, Xuedong and Shen, Xiaojing and Wang, Meng and Rick, Siow Mong, Goh and Yong, Liu and Fu, Huazhu},
+  author    = {Zou, Ke and Yuan, Xuedong and Shen, Xiaojing and Wang, Meng and Rick, Siow Mong, Goh and Liu, Yong and Fu, Huazhu},
   title     = {EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap},
   year      = {2023},
   publisher = {arXiv},
