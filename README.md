@@ -1,4 +1,4 @@
-## UMIS: Trusworthy medical image segmentation
+## EvidenceCap: Trusworthy medical image segmentation
 Conference version of 
 [TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
 
@@ -26,8 +26,6 @@ Medical image segmentation (MIS) is essential for supporting disease diagnosis a
 - The Duke OCT dataset with DME dataset could be acquired from [here](https://people.duke.edu/~sf59/Chiu_BOE_2014_dataset.htm).
 - The DRIVE dataset could be acquired from [here](https://drive.grand-challenge.org/DRIVE/).
 - The FIVES dataset could be acquired from [here](https://figshare.com/articles/figure/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/19688169/1).
-
-
 
 
 ## Data Preprocess
