@@ -82,6 +82,7 @@ Abnormal data: Gaussian noise, Gaussian blur and random pixel mask
 
 
 ### 3.3 Abnormal Data Acquisition
+<`
 - Task1: Skin lession segmentation
     + The ISIC2018 dataset with Gaussian noise and random pixel mask could be acquired from google drive [here](https://challenge2018.isic-archive.com/).
    
@@ -90,7 +91,7 @@ Abnormal data: Gaussian noise, Gaussian blur and random pixel mask
     
 - Task3: Brain tumor segmentation
     + The BraTS2019 dataset with Gaussian noise, Gaussian blur and random pixel mask  could be acquired from  google drive [here](https://ipp.cbica.upenn.edu/).
-
+`>
 
 ### 3.4 Training & Testing 
 - Training Configuration:
