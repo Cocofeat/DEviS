@@ -1,9 +1,9 @@
 # EvidenceCap: Trusworthy medical image segmentation
 Conference version of 
-[TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)[code](https://github.com/Cocofeat/TBraTS)
+[TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)  [code](https://github.com/Cocofeat/TBraTS)
 
 Journal version of
-[EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap](https://arxiv.org/abs/2301.00349)[code](https://github.com/Cocofeat/UMIS)
+[EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap](https://arxiv.org/abs/2301.00349)  [code](https://github.com/Cocofeat/UMIS)
 
 ## 1. Requirements
 Some important required packages include:  
