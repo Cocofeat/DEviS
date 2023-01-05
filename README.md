@@ -23,12 +23,12 @@ Medical image segmentation (MIS) is essential for supporting disease diagnosis a
 ### 2.2 Framework Overview
 EvidenceCap is a trustworthy medical image segmentation framework based on evidential deep learning, which provides robust segmentation performance and reliable uncertainty quantification for diagnostic support. A pipeline of EvidenceCap and its results in undertaking trustworthy medical image segmentation tasks are shown in Fig. 1 b and c. In the training phase (Fig. 1 b), EvidenceCap can be applied to any task in numerous medical domains. Its trained model visually generates auxiliary diagnostic results, including robust target segmentation results and reliable uncertainty estimation. In the testing phase, in order to verify the effectiveness of the method, EvidenceCap was tested for confidence, robustness, and computational efficiency on different segmentation tasks.
 
-<div align=center><img width="900" height="400" alt="Our TBraTS framework" src="https://github.com/Cocofeat/UMIS/blob/main/image/NC_F1.png"/></div>
+<div align=center><img width="900" height="400" alt="Our EvidenceCap framework" src="https://github.com/Cocofeat/UMIS/blob/main/image/NC_F1.png"/></div>
 
 
 ### 2.3 Qualitative Results
 
-<div align=center><img width="900" height="400" alt="Our TBraTS framework" src="https://github.com/Cocofeat/UMIS/blob/main/image/brats_fA2.png"/></div>
+<div align=center><img width="900" height="400" alt="Qualitative Results on BraTS2019 dataset" src="https://github.com/Cocofeat/UMIS/blob/main/image/brats_fA2.png"/></div>
 
 ## 3. Proposed Baseline
 
@@ -42,50 +42,56 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
 - The FIVES dataset could be acquired from [here](https://figshare.com/articles/figure/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/19688169/1).
 
 ### 3.2 Data Preprocess & download Noised data directly 
+
 - Task1: ISIC2018 
+
     + Preprocess
-    After downloading the dataset from [here](https://challenge2018.isic-archive.com/), data preprocessing is needed.
-
-    + Follow the `python3 data/preprocessISIC.py ` which is referenced from the [CA-Net](https://github.com/HiLab-git/CA-Net/blob/master/isic_preprocess.py)
-
-- create noise data 
-
-    + Follow the `python3 data/isic_condition_list.py ` which is preprocessed to create noised data for ISIC.
+    
+        After downloading the dataset from [here](https://challenge2018.isic-archive.com/), data preprocessing is needed. Follow the `python3 data/preprocessISIC.py `         which is referenced from the [CA-Net](https://github.com/HiLab-git/CA-Net/blob/master/isic_preprocess.py)
+        
+    + create noise data 
+    
+       Follow the `python3 data/isic_condition_list.py ` which is preprocessed to create noised data for ISIC.
 
 - Task2: LiTS2017 
-  + Preprocess
-  After downloading the dataset from [here](https://competitions.codalab.org/competitions/17094), data preprocessing is needed.
 
-Follow the `python3 data/preprocessLiver.py ` which is referenced from the [H-DenseU](https://github.com/xmengli/H-DenseUNet/blob/master/preprocessing.py)
+    + Preprocess
+    
+        After downloading the dataset from [here](https://competitions.codalab.org/competitions/17094), data preprocessing is needed. Follow the `python3                       data/preprocessLiver.py ` which is referenced from the [H-DenseU](https://github.com/xmengli/H-DenseUNet/blob/master/preprocessing.py)
 
-- create noise data 
+    + create noise data 
 
-    + Follow the `python3 data/LiTS_condition_list.py `  which is preprocessed to create noised data for Liver.
+        Follow the `python3 data/LiTS_condition_list.py `  which is preprocessed to create noised data for Liver.
 
 -Task3: BraTS2019
-- After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
 
-Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-1119/TransBTS/blob/main/data/preprocess.py)
+    + Preprocess
+    
+        After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and             realize date normalization. Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-                           1119/TransBTS/blob/main/data/preprocess.py)
 
-- create noise data 
-
-Follow the Follow the `python3 data/brats_condition_list.py `
-
-
-## Noised Data Acquisition
-### Task1: Skin lession segmentation
-- The ISIC2018 dataset with Gaussian noise and random pixel mask could be acquired from google drive [here](https://challenge2018.isic-archive.com/).
-### Task2: Liver segmentation
-- The LiTS2017 dataset with Gaussian noise, Gaussian blur and random pixel mask could be acquired from google drive [here](https://competitions.codalab.org/competitions/17094).
-### Task3: Brain tumor segmentation
-- The BraTS2019 dataset with Gaussian noise, Gaussian blur and random pixel mask  could be acquired from  google drive [here](https://ipp.cbica.upenn.edu/).
+    + create noise data 
+    
+        Follow the Follow the `python3 data/brats_condition_list.py `
 
 
+### 3.3 Noised Data Acquisition
+- Task1: Skin lession segmentation
+    + The ISIC2018 dataset with Gaussian noise and random pixel mask could be acquired from google drive [here](https://challenge2018.isic-archive.com/).
+   
+- Task2: Liver segmentation
+    + The LiTS2017 dataset with Gaussian noise, Gaussian blur and random pixel mask could be acquired from google drive [here](https://competitions.codalab.org/competitions/17094).
+    
+- Task3: Brain tumor segmentation
+    + The BraTS2019 dataset with Gaussian noise, Gaussian blur and random pixel mask  could be acquired from  google drive [here](https://ipp.cbica.upenn.edu/).
 
-## Training & Testing 
-Run the `python3 pretrainUMIS.py ` : your own backbone with our framework(U/V/AU/TransBTS)
 
-Run the `python3 trainUMIS.py ` : the backbone without our framework
+### 3.4 Training & Testing 
+- Training Configuration:
+    + Run the `python3 pretrainUMIS.py ` and change the `mode = train` : your own backbone with our framework(U/V/AU/TransBTS)
+    + Run the `python3 trainUMIS.py ` and change the `mode = train`  : the backbone without our framework
+- Training Configuration:
+    + Run the `python3 pretrainUMIS.py ` and change the `mode = test`  : your own backbone with our framework(U/V/AU/TransBTS)
+    + Run the `python3 trainUMIS.py `  and change the `mode = test`  : the backbone without our framework
 
 ##  :fire: NEWS :fire:
 * [01/05] We have released the codes. 
