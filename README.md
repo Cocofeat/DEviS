@@ -63,7 +63,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
 
         Follow the `python3 data/LiTS_condition_list.py `  which is preprocessed to create noised data for Liver.
 
--Task3: BraTS2019
+- Task3: BraTS2019
 
     + Preprocess
     
@@ -71,7 +71,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
 
     + create noise data 
     
-        Follow the Follow the `python3 data/brats_condition_list.py `
+        Follow the `python3 data/brats_condition_list.py `
 
 
 ### 3.3 Noised Data Acquisition
