@@ -41,7 +41,9 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
 - The DRIVE dataset could be acquired from [here](https://drive.grand-challenge.org/DRIVE/).
 - The FIVES dataset could be acquired from [here](https://figshare.com/articles/figure/FIVES_A_Fundus_Image_Dataset_for_AI-based_Vessel_Segmentation/19688169/1).
 
-### 3.2 Data Preprocess & download Noised data directly 
+### 3.2 Data Preprocess or download Abnormal data directly 
+
+Abnormal data: Gaussian noise, Gaussian blur and random pixel mask
 
 - Task1: ISIC2018 
 
@@ -80,7 +82,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
         Follow the `python3 data/brats_condition_list.py `
 
 
-### 3.3 Noised Data Acquisition
+### 3.3 Abnormal Data Acquisition
 - Task1: Skin lession segmentation
     + The ISIC2018 dataset with Gaussian noise and random pixel mask could be acquired from google drive [here](https://challenge2018.isic-archive.com/).
    
