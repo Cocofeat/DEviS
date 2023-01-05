@@ -100,10 +100,10 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
         Just enjoy it!
         
 - Testing Configuration:
-    + Run the `python3 pretrainUMIS.py ` and change the `python3 mode = test`, 'python3 OOD_Condition', 'python3 OOD_Level', 'python3 model_name'  : your own backbone with our framework(U/V/AU/TransBTS)
+    + Run the `python3 pretrainUMIS.py ` and change the `mode = test`, `OOD_Condition`, `OOD_Level`, `python3 model_name`  : your own backbone with our framework(U/V/AU/TransBTS)
         Just enjoy it!
         
-    + Run the `python3 trainUMIS.py `  and change the `python3 mode = test`, 'python3 OOD_Condition', 'python3 OOD_Level', 'python3 model_name'   : the backbone without our framework
+    + Run the `python3 trainUMIS.py `  and change the `mode = test`, `OOD_Condition`, `OOD_Level`, `python3 model_name`   : the backbone without our framework
         Just enjoy it!
         
 ### 3.5 Evaluating & Output uncertainty map
