@@ -48,6 +48,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
     + Preprocess
     
         After downloading the dataset from [here](https://challenge2018.isic-archive.com/), data preprocessing is needed. 
+        
         Follow the `python3 data/preprocessISIC.py ` which is referenced from the [CA-Net](https://github.com/HiLab-git/CA-Net/blob/master/isic_preprocess.py)
         
     + Create noise data (Gaussian noise and Random mask) 
@@ -59,6 +60,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
     + Preprocess
     
         After downloading the dataset from [here](https://competitions.codalab.org/competitions/17094), data preprocessing is needed. 
+        
         Follow the `python3 data/preprocessLiver.py ` which is referenced from the [H-DenseU](https://github.com/xmengli/H-DenseUNet/blob/master/preprocessing.py)
 
     + Create the abnormal data (Gaussian noise, blur and Random mask)
@@ -70,6 +72,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
     + Preprocess
     
         After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and             realize date normalization. 
+        
         Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-1119/TransBTS/blob/main/data/preprocess.py)
 
     + Create the noised data (Gaussian noise, blur and Random mask) 
