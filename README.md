@@ -67,7 +67,7 @@ EvidenceCap is a trustworthy medical image segmentation framework based on evide
 
     + Preprocess
     
-        After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and             realize date normalization. Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-                           1119/TransBTS/blob/main/data/preprocess.py)
+        After downloading the dataset from [here](https://ipp.cbica.upenn.edu/), data preprocessing is needed which is to convert the .nii files as .pkl files and             realize date normalization. Follow the `python3 data/preprocessBraTS.py ` which is referenced from the [TransBTS](https://github.com/Wenxuan-             1119/TransBTS/blob/main/data/preprocess.py)
 
     + Create the noised data (Gaussian noise, blur and Random mask) 
     
