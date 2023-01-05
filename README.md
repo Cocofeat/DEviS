@@ -142,3 +142,10 @@ If you find our work is helpful for your research, please consider to cite:
   publisher = {Springer Nature Switzerland},
 }
 ```
+
+## Acknowledgement
+Part of the code is revised from [CA-Net](https://github.com/HiLab-git/CA-Net), [H-DenseU](https://github.com/xmengli/H-DenseUNet) [TransBTS](https://github.com/Wenxuan-1119/TransBTS), [TMC](https://github.com/hanmenghan/TMC)
+
+## Contact
+* If you have any problems about our work, please contact [me](kezou8@gmail.com) 
+* Project Link: [TBraTS](https://github.com/Cocofeat/TBraTS/); [EvidenceCap](https://github.com/Cocofeat/UMIS/)
