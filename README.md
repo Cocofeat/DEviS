@@ -32,7 +32,9 @@ Medical image segmentation (MIS) is essential for supporting disease diagnosis a
 ## Data Preprocess or download Noised data directly 
 - ISIC2018 
 After downloading the dataset from [here](https://challenge2018.isic-archive.com/), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
+
 Follow the `python3 data/preprocessISIC.py ` which is referenced from the [CA-Net](https://github.com/HiLab-git/CA-Net/blob/master/isic_preprocess.py)
+
 - create noise data 
 
 Follow the Follow the `python3 data/isic_condition_list.py `
@@ -41,6 +43,8 @@ Follow the Follow the `python3 data/isic_condition_list.py `
 After downloading the dataset from [here](https://competitions.codalab.org/competitions/17094), data preprocessing is needed which is to convert the .nii files as .pkl files and realize date normalization.
 
 Follow the `python3 data/preprocessLiver.py ` which is referenced from the [H-DenseU](https://github.com/xmengli/H-DenseUNet/blob/master/preprocessing.py)
+
+- create noise data 
 
 Follow the Follow the `python3 data/LiTS_condition_list.py `
 
