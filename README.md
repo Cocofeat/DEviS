@@ -1,9 +1,9 @@
 # EvidenceCap: Trusworthy medical image segmentation
 Conference version of 
-[TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)
+[TBraTS: Trusted Brain Tumor Segmentation](https://arxiv.org/abs/2206.09309)[code](https://github.com/Cocofeat/TBraTS)
 
 Journal version of
-[EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap](https://arxiv.org/abs/2301.00349)
+[EvidenceCap: Towards trustworthy medical image segmentation via evidential identity cap](https://arxiv.org/abs/2301.00349)[code](https://github.com/Cocofeat/UMIS)
 
 ## 1. Requirements
 Some important required packages include:  
@@ -118,7 +118,6 @@ Abnormal data: Gaussian noise, Gaussian blur and random pixel mask
 * [01/05] We have released the codes. 
 * [01/01] We will release the code as soon as possible. 
 * Happy New Year!
-* [09/17] We will release the code as soon as possible. 
 
 If you find our work is helpful for your research, please consider to cite:  
 ```
@@ -128,8 +127,6 @@ If you find our work is helpful for your research, please consider to cite:
   year      = {2023},
   publisher = {arXiv},
   url = {https://arxiv.org/abs/2301.00349},
-
-}
 }
 ```
 
@@ -142,6 +139,5 @@ If you find our work is helpful for your research, please consider to cite:
   address   = {Cham},
   pages     = {503--513},
   publisher = {Springer Nature Switzerland},
-}
 }
 ```
