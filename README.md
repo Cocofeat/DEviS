@@ -9,7 +9,7 @@ Journal version of
 Some important required packages include:  
 Pytorch version >=0.4.1.  
 Visdom  
-Python == 3.7  
+Python == 3.6  
 Some basic python packages such as Numpy.  
 
 ## 2. Overview
