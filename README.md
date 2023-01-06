@@ -88,10 +88,10 @@ Abnormal data: Gaussian noise, Gaussian blur and random pixel mask
     + The ISIC2018 dataset with Gaussian noise and random pixel mask could be acquired from google drive [here](https://drive.google.com/file/d/1BioeT7NR6bZ2xSqDwVd7BYrZd2ZjLD_-/view?usp=share_link).
    
 - Task2: Liver segmentation
-    + The LiTS2017 dataset with Gaussian noise, Gaussian blur and random pixel mask could be acquired from google drive [here](https://competitions.codalab.org/competitions/17094).
+    + The LiTS2017 dataset with Gaussian noise, Gaussian blur and random pixel mask could be acquired from google drive [here]().
     
 - Task3: Brain tumor segmentation
-    + The BraTS2019 dataset with Gaussian noise, Gaussian blur and random pixel mask  could be acquired from  google drive [here](https://ipp.cbica.upenn.edu/).
+    + The BraTS2019 dataset with Gaussian noise, Gaussian blur and random pixel mask  could be acquired from  google drive [here](https://drive.google.com/file/d/1hWFKidJaLEXSYdn6N7QAPAkLtVbh49o6/view?usp=share_link).
 -->
 
 ### 3.4 Training & Testing 
