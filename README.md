@@ -1,15 +1,16 @@
 # EvidenceCap: Trusworthy medical image segmentation
-Conference version of 
+- Conference version of 
 [[Paper]](https://arxiv.org/abs/2206.09309)  [[code]](https://github.com/Cocofeat/TBraTS)
 
-Journal version of
+- Journal version of
 [[Paper]](https://arxiv.org/abs/2301.00349)  [[code]](https://github.com/Cocofeat/UMIS)
 
 ## 1. Requirements
-Some important required packages include:  
-Pytorch version >=0.4.1.  
-Python == 3.6  
-Some basic python packages such as Numpy.  
+    Some important required packages include:    
+    - Python == 3.6  
+    - pytorch 1.6.0
+    - torchvision 0.7.0
+    Some basic python packages such as Numpy...  
 
 ## 2. Overview
 
