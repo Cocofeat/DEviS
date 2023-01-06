@@ -92,6 +92,9 @@ Abnormal data: Gaussian noise, Gaussian blur and random pixel mask
 - Task3: Brain tumor segmentation
     + The BraTS2019 dataset with Gaussian noise, Gaussian blur and random pixel mask  could be acquired from  google drive [here](https://drive.google.com/file/d/1hWFKidJaLEXSYdn6N7QAPAkLtVbh49o6/view?usp=share_link).
 
+<!--
+-->
+
 ### 3.4 Training & Testing 
 - Training Configuration:
     + Run the `python3 pretrainUMIS.py ` and change the `mode = train` : your own backbone with our framework(U/V/AU/TransBTS)
