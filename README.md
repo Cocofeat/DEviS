@@ -1,4 +1,4 @@
-# EvidenceCap: Trusworthy medical image segmentation
+# Towards Reliable Medical Image Segmentation by utilizing Evidential Calibrated Uncertainty
 - Conference version of 
 [[Paper]](https://arxiv.org/abs/2206.09309)  [[code]](https://github.com/Cocofeat/TBraTS)
 
