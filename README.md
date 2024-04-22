@@ -3,7 +3,7 @@
 [[Paper]](https://arxiv.org/abs/2206.09309)  [[code]](https://github.com/Cocofeat/TBraTS)
 
 - Journal version of
-[[Paper]](https://arxiv.org/abs/2301.00349)  [[code]](https://github.com/Cocofeat/UMIS)
+[[Paper]](https://arxiv.org/abs/2301.00349)  [[code]](https://github.com/Cocofeat/DEviS)
 
 ## 1. Requirements
     Some important required packages include:    
